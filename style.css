@@ -1,0 +1,53 @@
+body,h1,h5 {
+    font-family: "Raleway", sans-serif
+}
+body, html {
+    height: 100%
+}
+.bgimg {
+  background-image: url('coffee-bg.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+#logo{
+    width:3em;
+    height:3em;
+    margin-top: -8em;
+}
+
+.w3-large{
+    color:white;
+    
+}
+
+#w3_xlarg_time{
+    color:blanchedalmond;
+}
+
+#w3_xlarg_time:hover{
+    color:burlywood;
+    text-transform: capitalize;  
+}
+
+/* #menu_btn{
+    color: antiquewhite;
+} */
+
+
+.w3-button{
+    background-color:blanchedalmond;
+    border-radius: 100px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .w3-bg-color{
+    background-color: blanchedalmond;
+  }
+  
+

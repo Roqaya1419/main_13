@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Roqaya's Coffee</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="bgimg w3-display-container w3-text-white">
+  <div class="w3-display-middle w3-jumbo">
+    <img id="logo" src="Roqaya_s_Coffee-removebg-preview.png">
+  </div>
+  <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('menu').style.display='block'" id="menu_btn" class="w3-button">menu</button></p>
+    <p><button onclick="document.getElementById('contact').style.display='block'" id="menu_btn" class="w3-button">contact</button></p>
+  </div>
+  <div class="w3-display-bottomleft w3-container">
+    <p id ="w3_xlarg_time" class="w3-xlarge">Sunday - friday 9:00 AM- 11:00 PM | saturday 8:30 AM- 12:00 AM</p>
+    <p class="w3-large">Kingdom of Saudi Arabia- Alahsaa</p>
+  </div>
+</div>
+
+<!-- Menu Modal -->
+<div id="menu" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-bg-color w3-display-container">
+      <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>HOT DRINKS</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Espresso <b>8 SR</b></h5>
+      <h5>Cappuccino<b>16 SR</b></h5>
+      <h5>Coffee Latte <b>14 SR</b></h5>
+    </div>
+    <div class="w3-container  w3-bg-color">
+      <h1>COLD BEVERAGES</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Mocha Frappe <b>14 SR</b></h5>
+      <h5>White Mocha Frappe <b>17.5 SR</b></h5>
+      <h5>Ice Latte <b>16 SR</b></h5>
+      <h5>Toffee Frappe <b>12 SR</b></h5>
+      <h5>Double Choco Mint <b>18 SR</b></h5>
+    </div>
+    <div class="w3-container w3-bg-color">
+      <h1>SWEETS & PASTRIES</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Cheese Cake <b>24 SR</b></h5>
+      <h5>Croissant <b>15 SR</b></h5>
+      <h5>Caramel Cake <b>28 SR</b></h5>
+      <h5>Chocolate Cake <b>26 SR</b></h5>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Modal -->
+<div id="contact" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container  w3-bg-color">
+      <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Contact</h1>
+    </div>
+    <div class="w3-container">
+      <p>Reserve a table, ask for today's special or just send us a message:</p>
+      <form action="/action_page.php" target="_blank">
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+        <p><button class="w3-button" type="submit">SEND MESSAGE</button></p>
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
